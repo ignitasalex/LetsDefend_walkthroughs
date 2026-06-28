@@ -160,9 +160,7 @@ C:\Program Files\Microsoft Office\Office16\WINWORD[.]EXE
 
 *Figure 4: ANY.RUN analysis*
 
-![fig4_3](Images/319_4_3.png)
 
-![fig4_4](Images/319_4_4.png)
 
 *Figure 4: Any run analysis*
 
