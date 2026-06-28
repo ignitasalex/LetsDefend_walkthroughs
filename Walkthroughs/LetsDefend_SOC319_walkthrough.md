@@ -37,9 +37,9 @@ We can tackle the investigation from 2 approaches:
 | Why it matters: The alert tells you the investigation theme: the suspicious point is not just a file name, but a file with an image extension being loaded like a DLL. |
 | --- |
 
-![forest](Images/319_1.png)
+![fig1](Images/319_1.png)
 
-*Figure : Alert context and initial SOC319 details.*
+*Figure 1: Alert context and initial SOC319 details.*
 
 ## Step 2 - Pivot to Log Management
 
@@ -62,9 +62,9 @@ We can tackle the investigation from 2 approaches:
 
 - Command lines that run document[.]rtf, curl[.]exe, WINWORD[.]EXE, or rundll32.
 
-<!-- TODO: add screenshot 02 here. Source image appeared at DOCX block 33. -->
+![fig2](Images/319_2.png)
 
-*Figure : Log Management evidence around the alert time.*
+*Figure 2: Log Management evidence around the alert time.*
 
 ## Step 3 - Rebuild the Process Chain
 
@@ -113,9 +113,9 @@ C:\Program Files\Microsoft Office\Office16\WINWORD[.]EXE
 | Why it matters: This step explains initial access. Without origin validation, you only know what executed; with it, you can explain how the user likely received the payload. |
 | --- |
 
-<!-- TODO: add screenshot 03 here. Source image appeared at DOCX block 61. -->
+![fig3](Images/319_3.png)
 
-*Figure : Email Security containing the logged suspicious email.*
+*Figure 3: Email Security containing the logged suspicious email.*
 
 ## Step 5 - Validate Behavior with Sandbox Evidence
 
@@ -145,15 +145,18 @@ C:\Program Files\Microsoft Office\Office16\WINWORD[.]EXE
 | Why it matters: Sandbox validation is useful because it independently confirms the same behavior seen in the endpoint logs. This reduces the chance that the finding is based on one artifact only. <br>Note: The fact that nothing is triggered in a sandbox does not guarantee that the file is benign. Malware can detect sandboxed environments, delay execution, require specific user interaction, depend on external conditions, or behave differently across runs. |
 | --- |
 
-<!-- TODO: add screenshot 04 here. Source image appeared at DOCX block 78. -->
+|  |  |
+|---|---|
+| ![fig4_1](Images/319_4_1.png) | ![fig4_2](Images/319_4_2.png) |
+| ![fig4_3](Images/319_4_3.png) | ![fig4_4](Images/319_4_4.png) |
 
-<!-- TODO: add screenshot 05 here. Source image appeared at DOCX block 79. -->
+*Figure 4: ANY.RUN analysis*
 
-<!-- TODO: add screenshot 06 here. Source image appeared at DOCX block 80. -->
+![fig4_3](Images/319_4_3.png)
 
-<!-- TODO: add screenshot 07 here. Source image appeared at DOCX block 81. -->
+![fig4_4](Images/319_4_4.png)
 
-*Figure : Any run analysis*
+*Figure 4: Any run analysis*
 
 ## Step 5B - Rebuild the Same Case from Machine Logs
 
