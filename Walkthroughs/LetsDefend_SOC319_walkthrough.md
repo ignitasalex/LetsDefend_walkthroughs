@@ -147,15 +147,15 @@ C:\Program Files\Microsoft Office\Office16\WINWORD[.]EXE
 
 <table>
   <tr>
-    <td><img src="Images/319_4_1.png" alt="fig4_1" width="50%"  height="300"></td>
-    <td><img src="Images/319_4_2.png" alt="fig4_2" width="50%"  height="300"></td>
+    <td><img src="Images/319_4_1.png" alt="fig4_1" width="50%"  height="500"></td>
+    <td><img src="Images/319_4_2.png" alt="fig4_2" width="50%"  height="500"></td>
   </tr>
 </table>
 <table>  <tr>
     <td><img src="Images/319_4_3.png" alt="fig4_3" width="100%"  height="300"></td>
   </tr>
   <tr>
-    <td><img src="Images/319_4_4.png" alt="fig4_4" width="100%"  height="300"></td>
+    <td><img src="Images/319_4_4.png" alt="fig4_4" width="50%"  height="300" align="center"></td>
   </tr>
 </table>
 
