@@ -146,6 +146,7 @@ C:\Program Files\Microsoft Office\Office16\WINWORD[.]EXE
 | --- |
 
 ![fig4](Images/319_4_0.png)
+
 *Figure 4: ANY.RUN analysis*
 
 
@@ -202,35 +203,35 @@ cmd[.]exe launches WINWORD[.]EXE to open data\document[.]rtf as the decoy docume
 
 Why this matters: Event ID 4688 proves parent-child process relationships and command lines from the endpoint itself. In this case, it confirms that the fake document executable launched the commands that created the working folder, downloaded the PNG-named payload, opened the decoy document, and executed the payload through rundll32.
 
-<!-- TODO: add screenshot 08 here. Source image appeared at DOCX block 114. -->
+![fig5](Images/319_5.png)
 
 *Figure 5: Chrome download history showing perspiciatism[.]zip downloaded on September 9, 2024.*
 
-<!-- TODO: add screenshot 09 here. Source image appeared at DOCX block 116. -->
+![fig6](Images/319_6.png)
 
 *Figure 6: Event Viewer filter scoped to Security events 4688 and 4689 around the incident window.*
 
-<!-- TODO: add screenshot 10 here. Source image appeared at DOCX block 118. -->
+![fig7](Images/319_7.png)
 
 *Figure 7: Event ID 4688 showing 7zG[.]exe extracting perspiciatism[.]zip into the Downloads path.*
 
-<!-- TODO: add screenshot 11 here. Source image appeared at DOCX block 120. -->
+![fig8](Images/319_8.png)
 
 *Figure 8: Event ID 4688 showing Open_Document[.]exe launched from the extracted perspiciatism folder.*
 
-<!-- TODO: add screenshot 12 here. Source image appeared at DOCX block 122. -->
+![fig9](Images/319_9.png)
 
 *Figure 9: Event ID 4688 showing Open_Document[.]exe launching cmd[.]exe.*
 
-<!-- TODO: add screenshot 13 here. Source image appeared at DOCX block 124. -->
+![fig10](Images/319_10.png)
 
 *Figure 10: Event ID 4688 showing cmd[.]exe launching curl[.]exe to download 3291[.]png from yourunitedlaws[.]com.*
 
-<!-- TODO: add screenshot 14 here. Source image appeared at DOCX block 126. -->
+![fig11](Images/319_11.png)
 
 *Figure 11: Event ID 4688 showing cmd[.]exe launching WINWORD[.]EXE to open the decoy document[.]rtf.*
 
-<!-- TODO: add screenshot 15 here. Source image appeared at DOCX block 128. -->
+![fig12](Images/319_12.png)
 
 *Figure 12: Event ID 4688 showing Open_Document[.]exe launching rundll32 to execute c:\wnd\3291[.]png,GetModuleProp.*
 
