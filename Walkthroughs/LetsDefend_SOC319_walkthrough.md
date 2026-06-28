@@ -37,7 +37,7 @@ We can tackle the investigation from 2 approaches:
 | Why it matters: The alert tells you the investigation theme: the suspicious point is not just a file name, but a file with an image extension being loaded like a DLL. |
 | --- |
 
-![forest](Walkthroughs/Images/319_!.png)
+![forest](Images/319_!.png)
 
 *Figure : Alert context and initial SOC319 details.*
 
