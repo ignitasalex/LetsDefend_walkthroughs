@@ -145,10 +145,18 @@ C:\Program Files\Microsoft Office\Office16\WINWORD[.]EXE
 | Why it matters: Sandbox validation is useful because it independently confirms the same behavior seen in the endpoint logs. This reduces the chance that the finding is based on one artifact only. <br>Note: The fact that nothing is triggered in a sandbox does not guarantee that the file is benign. Malware can detect sandboxed environments, delay execution, require specific user interaction, depend on external conditions, or behave differently across runs. |
 | --- |
 
-|  |  |
-|---|---|
-| ![fig4_1](Images/319_4_1.png) | ![fig4_2](Images/319_4_2.png) |
-| ![fig4_3](Images/319_4_3.png) | ![fig4_4](Images/319_4_4.png) |
+<table>
+  <tr>
+    <td><img src="Images/319_4_1.png" alt="fig4_1" width="400"></td>
+    <td><img src="Images/319_4_2.png" alt="fig4_2" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/319_4_3.png" alt="fig4_3" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/319_4_4.png" alt="fig4_4" width="400"></td>
+  </tr>
+</table>
 
 *Figure 4: ANY.RUN analysis*
 
