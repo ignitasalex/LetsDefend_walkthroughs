@@ -37,7 +37,7 @@ We can tackle the investigation from 2 approaches:
 | Why it matters: The alert tells you the investigation theme: the suspicious point is not just a file name, but a file with an image extension being loaded like a DLL. |
 | --- |
 
-<!-- TODO: add screenshot 01 here. Source image appeared at DOCX block 19. -->
+<img width="1084" height="257" alt="image" src="https://github.com/user-attachments/assets/69fd6cc7-ca65-472d-ab91-10776d074cf6" />
 
 *Figure : Alert context and initial SOC319 details.*
 
